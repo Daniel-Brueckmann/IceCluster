@@ -6,8 +6,6 @@ import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import java.util.jar.JarFile
 
-
-
 fun main(args: Array<String>) {
     val updaterPath = File("storage/modules/cloud-updater.jar").toPath()
     updaterPath.toFile().parentFile.mkdirs()

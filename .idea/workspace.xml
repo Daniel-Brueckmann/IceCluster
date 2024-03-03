@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cd9015d-07b4-4003-8b42-c6babbbb2a92" name="Changes" comment="" />
+    <list default="true" id="5cd9015d-07b4-4003-8b42-c6babbbb2a92" name="Changes" comment="Startup Project">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cloud-Updater/src/main/kotlin/de/brueckmannsolutions/icecluster/updater/update/RestartService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Loader/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Loader/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Loader/src/main/kotlin/de/brueckmannsolutions/icecluster/loader/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Loader/src/main/kotlin/de/brueckmannsolutions/icecluster/loader/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Updater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Updater/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Updater/src/main/kotlin/de/brueckmannsolutions/icecluster/updater/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Updater/src/main/kotlin/de/brueckmannsolutions/icecluster/updater/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cloud-Updater/src/main/kotlin/de/brueckmannsolutions/icecluster/updater/update/UpdateManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud-Updater/src/main/kotlin/de/brueckmannsolutions/icecluster/updater/update/UpdateManager.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,24 +27,37 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2d5YoRHxfLpVlpQWLg4Om8PjfZT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.Updater.executor": "Run",
     "Maven.IceCluster [clean].executor": "Run",
     "Maven.IceCluster [compile].executor": "Run",
     "Maven.IceCluster [install].executor": "Run",
     "Maven.IceCluster [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -49,6 +72,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cloud-Loader/target" />
+      <recent name="$PROJECT_DIR$/Cloud-Loader/src/test" />
+      <recent name="$PROJECT_DIR$/Run" />
       <recent name="$PROJECT_DIR$/Cloud-Updater/src/main/kotlin/de/brueckmannsolutions/icecluster/updater/Main" />
       <recent name="$PROJECT_DIR$/Cloud-Loader/src/main/kotlin/de/brueckmann-solutions/icecluster/loader" />
     </key>
@@ -87,11 +113,27 @@
       <updated>1709299581166</updated>
       <workItem from="1709299582553" duration="79000" />
       <workItem from="1709299675017" duration="151000" />
-      <workItem from="1709299831031" duration="6353000" />
+      <workItem from="1709299831031" duration="7137000" />
+      <workItem from="1709313666501" duration="47000" />
+      <workItem from="1709476612789" duration="8367000" />
     </task>
+    <task id="LOCAL-00001" summary="Startup Project">
+      <option name="closed" value="true" />
+      <created>1709312659267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709312659267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Startup Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Startup Project" />
   </component>
 </project>

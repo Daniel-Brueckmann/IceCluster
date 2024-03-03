@@ -35,5 +35,12 @@ fun main(args: Array<String>) {
     if(update) {
         println("Check for Updates...")
 
+        if(updateManager.updateAvailable()) {
+            println("New Updates Found to Version --> "+updateManager.getLatestVersion())
+            println("Starting update...")
+            updateManager.updateCluster()
+        } else {
+            println("No Updates available...")
+        }
     } else println("Skipping check for update!")
 }
